@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+
+  <!-- responsividade -->
+  <link rel="stylesheet" href="style/responsive.css">
+  
+  <!-- owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  <!-- modal css -->
+  <link rel="stylesheet" href="style/modal/jquery.modal.min.css">
+
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+  <title>LIVROFIX</title>
+
+   <!-- edição modal -->
+  <script src="js/modal/setupModal.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h2 class="logo">LIVROFIX</h2>
+      <nav>
+        <a href="#"> Inicio </a>
+        <a href="#"> Leitura </a>
+        <a href="#"> Dicas de livros </a>
+        <a href="#"> Documentários </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo" >Machado de Assis.</h3>
+        <p class="descricao">O escritor que nos lê, de Hélio de Seixas Guimarães.</p>
+        <div class="botoes">
+          <!-- Botao Open Modal -->
+            <div id="ex8" class="modal" id="modal1" >
+              <p style="font-weight: bold;">Machado de Assis</p>
+
+              <video class="video" width="400" controls>
+                <source src="media/machadoAssis.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+
+              <div class="button-close">
+              <a name="buton" class="close" href="#" rel="modal:close" >Close</a>
+              </div>
+            </div>
+            
+            <a name="button" href="#ex8"  role="button" class="botao" >
+              <i class="fas fa-play"></i>
+              Video
+            </a>
+            <br>
+            <br>
+            <br>
+            <!-- Botao mais informação-->
+            <div id="ex9" class="modal" id="modal2">
+              <p style="font-weight: bold;">Link PDF Abaixo!</p>
+              <dev class="link-button-leitura">
+               
+                <a target="_blank" href="pdf/arquivo.pdf"> <i class="fas fa-file-download"></i>    Link</a>
+              </dev>
+       
+
+              <div class="button-close-leitura">
+                <a name="buton" class="close" href="#" rel="modal:close" >Close</a>
+              </div>
+            </div>
+
+
+
+            <a name="button" href="#ex9"  role="button" class="botao" >
+              <i class="fas fa-book"></i>
+              Leitura em resumo
+            </a>
+        
+
+       
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/mini1.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini2.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini3.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini4.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini5.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini6.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini7.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini8.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini9.png" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini10.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- fonte -->
+  <script src="https://kit.fontawesome.com/4558c68289.js" crossorigin="anonymous"></script>
+  <!-- owl -->
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <!-- modal -->
+  <script src="js/modal/jquery.modal.min.js"></script>
+  <script src="js/modal/setupModal.js"></script>
+  
+  <!-- ediçaõ -->
+  <script src="js/owl/setup.js"></script>
+ 
+  
+</body>
+</html>

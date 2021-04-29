@@ -1,0 +1,167 @@
+:root{
+  --vermelho: #41dfc2;
+  --preta: #141414;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* elementos base */
+body{
+  background-color: var(--preta);
+  font-family: Arial,Times, sans-serif;
+  color: white;
+}
+header .container{
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+header nav a{
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+header nav a:hover{
+  color: #fff;
+}
+/* filme principal */
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
+
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.botao{
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+  text-decoration: none;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+.botao:hover {
+  background-color: white;
+  color:black;
+}
+.botao i {
+  margin-right: 8px;
+}
+.container{
+  margin-left: 30px;
+}
+.filme-principal .container{
+  width: 70%;
+}
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.carrosel-filmes {
+  margin-top: 5px;
+}
+#ex8 {
+  text-align: inherit;
+}
+.modal p{
+  color: rgb(0, 0, 0) ; 
+  padding: 0%;
+  text-align: center; 
+  margin-bottom: 5px;
+  
+}
+
+.button-close {
+  background-color: #141414;
+  font-size: 22px;
+  width:80px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button-close:hover{
+  background-color: rgba(0, 0, 0, 0.816);
+}
+.button-close a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.link-button-leitura{
+  
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  justify-content: center;
+ 
+}
+.link-button-leitura a  {
+  background-color: green;
+  border-radius: 15px;
+  padding: 10px 60px;
+  color: wheat;
+  text-decoration: none;
+}
+#ex8 {
+  text-align: inherit;
+}
+
+.button-close-leitura{
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+  text-align: center;
+}
+
+.button-close-leitura a {
+  background-color: #141414;
+
+  color: red;
+  
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.button-close-leitura a:hover{
+  background-color: rgba(0, 0, 0, 0.816);
+}
+
+/* WRAPPER = ENVELOPAR */
+
